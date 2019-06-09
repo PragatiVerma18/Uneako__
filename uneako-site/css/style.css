@@ -696,8 +696,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   text-align: center;
 }
 
-#testimonials .profile .pic {
-  border-radius: 50%;
+#testimonials img{
+  
   border: 6px solid #fff;
   margin-bottom: 15px;
   overflow: hidden;
@@ -705,7 +705,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   width: 260px;
 }
 
-#testimonials .profile .pic img {
+#testimonials img {
   max-width: 100%;
 }
 
@@ -743,6 +743,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   position: relative;
   top: 4px;
 }
+
 
 /* Team Section
 --------------------------------*/
