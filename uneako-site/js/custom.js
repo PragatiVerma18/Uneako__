@@ -146,3 +146,4 @@ $('.testimonials').slick({
   });
  
   });
+
