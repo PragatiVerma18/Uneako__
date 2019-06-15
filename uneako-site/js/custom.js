@@ -148,6 +148,7 @@ $('.testimonials').slick({
  
   });
 
+  // modal-boxes-js
   $(document).ready(function(){
     //modal-boxes
     document.querySelectorAll(".portfolio-item")[0].addEventListener("click", function(){
@@ -155,6 +156,11 @@ $('.testimonials').slick({
     });
     document.querySelectorAll(".close-box")[0].addEventListener("click", function(){
       document.querySelectorAll('.modal-box')[0].style.display = "none";
+    });
+    document.querySelectorAll('.modal-box')[0].addEventListener('click', function(e){
+      if(e.target == document.querySelectorAll('.modal-box')[0]){
+        document.querySelectorAll('.modal-box')[0].style.display = "none";
+      }
     });
   
   
@@ -164,12 +170,22 @@ $('.testimonials').slick({
     document.querySelectorAll(".close-box")[1].addEventListener("click", function(){
       document.querySelectorAll('.modal-box')[1].style.display = "none";
     });
+    document.querySelectorAll('.modal-box')[1].addEventListener('click', function(e){
+      if(e.target == document.querySelectorAll('.modal-box')[1]){
+        document.querySelectorAll('.modal-box')[1].style.display = "none";
+      }
+    });
   
     document.querySelectorAll(".portfolio-item")[2].addEventListener("click", function(){
       document.querySelectorAll('.modal-box')[2].style.display = "block";
     });
     document.querySelectorAll(".close-box")[2].addEventListener("click", function(){
       document.querySelectorAll('.modal-box')[2].style.display = "none";
+    });
+    document.querySelectorAll('.modal-box')[2].addEventListener('click', function(e){
+      if(e.target == document.querySelectorAll('.modal-box')[2]){
+        document.querySelectorAll('.modal-box')[2].style.display = "none";
+      }
     });
   
     document.querySelectorAll(".portfolio-item")[3].addEventListener("click", function(){
@@ -178,12 +194,22 @@ $('.testimonials').slick({
     document.querySelectorAll(".close-box")[3].addEventListener("click", function(){
       document.querySelectorAll('.modal-box')[3].style.display = "none";
     });
+    document.querySelectorAll('.modal-box')[3].addEventListener('click', function(e){
+      if(e.target == document.querySelectorAll('.modal-box')[3]){
+        document.querySelectorAll('.modal-box')[3].style.display = "none";
+      }
+    });
   
     document.querySelectorAll(".portfolio-item")[4].addEventListener("click", function(){
       document.querySelectorAll('.modal-box')[4].style.display = "block";
     });
     document.querySelectorAll(".close-box")[4].addEventListener("click", function(){
       document.querySelectorAll('.modal-box')[4].style.display = "none";
+    });
+    document.querySelectorAll('.modal-box')[4].addEventListener('click', function(e){
+      if(e.target == document.querySelectorAll('.modal-box')[4]){
+        document.querySelectorAll('.modal-box')[4].style.display = "none";
+      }
     });
   
     document.querySelectorAll(".portfolio-item")[5].addEventListener("click", function(){
@@ -192,12 +218,22 @@ $('.testimonials').slick({
     document.querySelectorAll(".close-box")[5].addEventListener("click", function(){
       document.querySelectorAll('.modal-box')[5].style.display = "none";
     });
+    document.querySelectorAll('.modal-box')[5].addEventListener('click', function(e){
+      if(e.target == document.querySelectorAll('.modal-box')[5]){
+        document.querySelectorAll('.modal-box')[5].style.display = "none";
+      }
+    });
   
     document.querySelectorAll(".portfolio-item")[6].addEventListener("click", function(){
       document.querySelectorAll('.modal-box')[6].style.display = "block";
     });
     document.querySelectorAll(".close-box")[6].addEventListener("click", function(){
       document.querySelectorAll('.modal-box')[6].style.display = "none";
+    });
+    document.querySelectorAll('.modal-box')[6].addEventListener('click', function(e){
+      if(e.target == document.querySelectorAll('.modal-box')[6]){
+        document.querySelectorAll('.modal-box')[6].style.display = "none";
+      }
     });
   
     document.querySelectorAll(".portfolio-item")[7].addEventListener("click", function(){
@@ -206,6 +242,11 @@ $('.testimonials').slick({
     document.querySelectorAll(".close-box")[7].addEventListener("click", function(){
       document.querySelectorAll('.modal-box')[7].style.display = "none";
     });
+    document.querySelectorAll('.modal-box')[7].addEventListener('click', function(e){
+      if(e.target == document.querySelectorAll('.modal-box')[7]){
+        document.querySelectorAll('.modal-box')[7].style.display = "none";
+      }
+    });
   
     document.querySelectorAll(".portfolio-item")[8].addEventListener("click", function(){
       document.querySelectorAll('.modal-box')[8].style.display = "block";
@@ -213,12 +254,22 @@ $('.testimonials').slick({
     document.querySelectorAll(".close-box")[8].addEventListener("click", function(){
       document.querySelectorAll('.modal-box')[8].style.display = "none";
     });
+    document.querySelectorAll('.modal-box')[8].addEventListener('click', function(e){
+      if(e.target == document.querySelectorAll('.modal-box')[8]){
+        document.querySelectorAll('.modal-box')[8].style.display = "none";
+      }
+    });
   
     document.querySelectorAll(".portfolio-item")[9].addEventListener("click", function(){
       document.querySelectorAll('.modal-box')[9].style.display = "block";
     });
     document.querySelectorAll(".close-box")[9].addEventListener("click", function(){
       document.querySelectorAll('.modal-box')[9].style.display = "none";
+    });
+    document.querySelectorAll('.modal-box')[9].addEventListener('click', function(e){
+      if(e.target == document.querySelectorAll('.modal-box')[9]){
+        document.querySelectorAll('.modal-box')[9].style.display = "none";
+      }
     });
   
   
@@ -228,6 +279,11 @@ $('.testimonials').slick({
     document.querySelectorAll(".close-box")[10].addEventListener("click", function(){
       document.querySelectorAll('.modal-box')[10].style.display = "none";
     });
+    document.querySelectorAll('.modal-box')[10].addEventListener('click', function(e){
+      if(e.target == document.querySelectorAll('.modal-box')[10]){
+        document.querySelectorAll('.modal-box')[10].style.display = "none";
+      }
+    });
   
   
     document.querySelectorAll(".portfolio-item")[11].addEventListener("click", function(){
@@ -236,8 +292,13 @@ $('.testimonials').slick({
     document.querySelectorAll(".close-box")[11].addEventListener("click", function(){
       document.querySelectorAll('.modal-box')[11].style.display = "none";
     });
+    document.querySelectorAll('.modal-box')[11].addEventListener('click', function(e){
+      if(e.target == document.querySelectorAll('.modal-box')[11]){
+        document.querySelectorAll('.modal-box')[11].style.display = "none";
+      }
+    });
   
   });
+
+
   
-
-
