@@ -11,6 +11,7 @@ body {
   background: #fff;
   color: #666666;
   font-family: "Open Sans", sans-serif;
+  overflow-x: hidden;
 }
 
 a {
@@ -632,6 +633,9 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .text-content > h1{
+  font-size: 2.2rem;
+  text-align: center;
+  font-weight: bolder;
   color: black;
 }
 .text-content > p{
